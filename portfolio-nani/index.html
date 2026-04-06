@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <title>Pavan Kumar Palla — Web Designer, Content Creator & Developer in Hyderabad</title>
+    <meta name="description"
+        content="I build clean, fast websites for businesses in Hyderabad. Web designer, content creator & CSE student at KMIT — bringing an artistic eye to every project.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,700;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Noise Texture Overlay -->
+    <div class="noise-overlay"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <a href="#hero" class="logo">
+                <img src="images/profile.png" alt="Pavan" class="nav-profile-img">
+                <span>Pavan<span class="logo-dot">.</span></span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <a href="https://wa.me/917842298679?text=Hi%20Pavan%2C%20I%20need%20a%20website" class="btn nav-cta"
+                target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-whatsapp"></i> Let's Talk
+            </a>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobile-menu">
+        <a href="#services" class="mobile-link">Services</a>
+        <a href="#projects" class="mobile-link">Projects</a>
+        <a href="#about" class="mobile-link">About</a>
+        <a href="#skills" class="mobile-link">Skills</a>
+        <a href="#contact" class="mobile-link">Contact</a>
+        <a href="https://wa.me/917842298679?text=Hi%20Pavan%2C%20I%20need%20a%20website"
+            class="btn mobile-cta" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-whatsapp"></i> WhatsApp Me
+        </a>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="hero-glow hero-glow-1"></div>
+        <div class="hero-glow hero-glow-2"></div>
+        <div class="hero-glow hero-glow-3"></div>
+        <div class="hero-grid-bg"></div>
+
+        <!-- Decorative Elements -->
+        <div class="deco-dots deco-dots-1"></div>
+        <div class="deco-dots deco-dots-2"></div>
+        <div class="deco-ring deco-ring-1"></div>
+        <div class="deco-ring deco-ring-2"></div>
+        <div class="deco-cross deco-cross-1">+</div>
+        <div class="deco-cross deco-cross-2">+</div>
+        <div class="deco-line deco-line-1"></div>
+
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="hero-badge fade-in">
+                    <span class="badge-dot"></span>
+                    Available for freelance projects
+                </div>
+                <h1 class="fade-in delay-1">I build <em class="hero-italic">beautiful</em>, fast websites for businesses in
+                    <span class="highlight">Hyderabad</span>
+                </h1>
+                <p class="subtitle fade-in delay-2">
+                    CSE Student at KMIT · Web Designer & Developer · Artist & Content Creator
+                </p>
+                <div class="hero-buttons fade-in delay-3">
+                    <a href="#projects" class="btn primary-btn">
+                        <i class="fas fa-arrow-down"></i> See My Work
+                    </a>
+                    <a href="https://wa.me/917842298679?text=Hi%20Pavan%2C%20I%20need%20a%20website"
+                        class="btn whatsapp-btn" target="_blank" rel="noopener noreferrer">
+                        Hire Me <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="hero-stats fade-in delay-4">
+                    <div class="stat">
+                        <span class="stat-number">5+</span>
+                        <span class="stat-label">Projects</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat">
+                        <span class="stat-number">3+</span>
+                        <span class="stat-label">Happy Clients</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat">
+                        <span class="stat-number">2nd</span>
+                        <span class="stat-label">Year CSE</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image fade-in delay-2">
+                <div class="img-wrapper">
+                    <img src="images/profile.png" alt="Pavan Kumar Palla">
+                </div>
+                <div class="hero-image-ring"></div>
+                <div class="hero-image-ring hero-image-ring-2"></div>
+                <!-- Decorative accents around image -->
+                <div class="hero-deco-triangle"></div>
+                <div class="hero-deco-circle"></div>
+            </div>
+        </div>
+
+        <!-- Wave Divider -->
+        <div class="section-divider">
+            <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+                <path d="M0 120L48 105C96 90 192 60 288 50C384 40 480 50 576 55C672 60 768 60 864 55C960 50 1056 40 1152 45C1248 50 1344 70 1392 80L1440 90V120H1392C1344 120 1248 120 1152 120C1056 120 960 120 864 120C768 120 672 120 576 120C480 120 384 120 288 120C192 120 96 120 48 120H0Z" fill="var(--bg-primary)"/>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section">
+        <div class="deco-dots deco-dots-3"></div>
+        <div class="deco-ring deco-ring-3"></div>
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"><i class="fas fa-palette"></i> What I Offer</span>
+                <h2 class="section-title">Services & <em class="title-italic">Pricing</em></h2>
+                <p class="section-subtitle">Affordable, professional web solutions tailored for small businesses and individuals in Hyderabad.</p>
+            </div>
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card">
+                    <div class="card-corner card-corner-tl"></div>
+                    <div class="card-corner card-corner-br"></div>
+                    <div class="service-icon">
+                        <i class="fas fa-store"></i>
+                    </div>
+                    <h3>Business Website</h3>
+                    <p class="service-desc">Professional multi-page website for your business. Responsive, SEO-optimized, and ready to convert visitors into customers.</p>
+                    <div class="service-features">
+                        <span><i class="fas fa-check"></i> 5-7 Pages</span>
+                        <span><i class="fas fa-check"></i> Mobile Responsive</span>
+                        <span><i class="fas fa-check"></i> SEO Optimized</span>
+                        <span><i class="fas fa-check"></i> Contact Forms</span>
+                    </div>
+                    <div class="service-price">
+                        <span class="price-range">₹8,000 – ₹15,000</span>
+                    </div>
+                    <a href="https://wa.me/917842298679?text=Hi%20Pavan%2C%20I%20need%20a%20business%20website"
+                        class="btn service-btn" target="_blank" rel="noopener noreferrer">
+                        Get Started <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                <!-- Service 2 -->
+                <div class="service-card featured">
+                    <div class="featured-badge">Most Popular</div>
+                    <div class="card-corner card-corner-tl"></div>
+                    <div class="card-corner card-corner-br"></div>
+                    <div class="service-icon">
+                        <i class="fas fa-user-astronaut"></i>
+                    </div>
+                    <h3>Portfolio / Personal Site</h3>
+                    <p class="service-desc">Stunning personal portfolio to showcase your work, skills, and story. Perfect for students, freelancers, and creatives.</p>
+                    <div class="service-features">
+                        <span><i class="fas fa-check"></i> Custom Design</span>
+                        <span><i class="fas fa-check"></i> Animations</span>
+                        <span><i class="fas fa-check"></i> Fast Loading</span>
+                        <span><i class="fas fa-check"></i> Free Deployment</span>
+                    </div>
+                    <div class="service-price">
+                        <span class="price-range">₹5,000 – ₹8,000</span>
+                    </div>
+                    <a href="https://wa.me/917842298679?text=Hi%20Pavan%2C%20I%20need%20a%20portfolio%20website"
+                        class="btn service-btn" target="_blank" rel="noopener noreferrer">
+                        Get Started <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                <!-- Service 3 -->
+                <div class="service-card">
+                    <div class="card-corner card-corner-tl"></div>
+                    <div class="card-corner card-corner-br"></div>
+                    <div class="service-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>Website + Branding Package</h3>
+                    <p class="service-desc">Complete digital presence — website, logo, color palette, typography, and social media banners. Launch your brand online.</p>
+                    <div class="service-features">
+                        <span><i class="fas fa-check"></i> Logo Design</span>
+                        <span><i class="fas fa-check"></i> Brand Colors</span>
+                        <span><i class="fas fa-check"></i> Full Website</span>
+                        <span><i class="fas fa-check"></i> Social Media Kit</span>
+                    </div>
+                    <div class="service-price">
+                        <span class="price-range">₹15,000 – ₹25,000</span>
+                    </div>
+                    <a href="https://wa.me/917842298679?text=Hi%20Pavan%2C%20I%20need%20a%20website%20%2B%20branding%20package"
+                        class="btn service-btn" target="_blank" rel="noopener noreferrer">
+                        Get Started <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Curved Divider -->
+        <div class="section-divider section-divider-curve">
+            <svg viewBox="0 0 1440 80" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+                <path d="M0 80L720 0L1440 80V80H0Z" fill="var(--bg-secondary)" opacity="0.5"/>
+                <path d="M0 80L720 20L1440 80V80H0Z" fill="var(--bg-secondary)"/>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section alt-bg">
+        <div class="deco-cross deco-cross-3">✦</div>
+        <div class="deco-ring deco-ring-4"></div>
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"><i class="fas fa-sparkles"></i> Recent Work</span>
+                <h2 class="section-title">Featured <em class="title-italic">Projects</em></h2>
+                <p class="section-subtitle">Real projects and concepts — each one crafted with an artistic eye and attention to detail.</p>
+            </div>
+            <div class="projects-grid">
+                <!-- Project 1 — CivicX (LIVE) -->
+                <div class="project-card project-card-featured">
+                    <div class="project-image">
+                        <img src="images/civicx-thumbnail.png" alt="CivicX — Civic Issue Reporter" class="project-thumbnail">
+                        <div class="project-overlay">
+                            <a href="https://civicxapp.web.app/" class="btn project-view-btn" target="_blank" rel="noopener noreferrer">View Live <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-live-badge"><span class="badge-dot"></span> Live</div>
+                        <h3>CivicX — Civic Issue Reporter</h3>
+                        <p>A community-driven platform to report and track civic issues like potholes, garbage, and street light failures. Features interactive maps, real-time dashboards, leaderboards, and gamification.</p>
+                        <div class="project-tags">
+                            <span>React</span>
+                            <span>Firebase</span>
+                            <span>Tailwind CSS</span>
+                            <span>Leaflet.js</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder" style="background: linear-gradient(135deg, #ff6b35, #f7931e);">
+                            <i class="fas fa-utensils"></i>
+                            <span>Spice Garden Restaurant</span>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="#" class="btn project-view-btn">View Project <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Spice Garden Restaurant</h3>
+                        <p>A sleek, appetizing restaurant website for a Hyderabad-based eatery. Features online menu, photo gallery, table reservations, and Google Maps integration.</p>
+                        <div class="project-tags">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                            <span>Responsive</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder" style="background: linear-gradient(135deg, #e91e8c, #c850c0);">
+                            <i class="fas fa-spa"></i>
+                            <span>GlowUp Salon</span>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="#" class="btn project-view-btn">View Project <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>GlowUp Salon Hyderabad</h3>
+                        <p>A modern, elegant website for a premium salon in Hyderabad. Features service listings, pricing, appointment booking, and Instagram gallery feed.</p>
+                        <div class="project-tags">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                            <span>Animations</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 4 — Portfolio (LIVE) -->
+                <div class="project-card project-card-featured">
+                    <div class="project-image">
+                        <img src="images/portfolio-thumbnail.png" alt="Personal Portfolio Website" class="project-thumbnail">
+                        <div class="project-overlay">
+                            <a href="https://pavankumarpalla-portfolio.vercel.app/" class="btn project-view-btn" target="_blank" rel="noopener noreferrer">View Live <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-live-badge"><span class="badge-dot"></span> Live</div>
+                        <h3>Personal Portfolio Website</h3>
+                        <p>This very website — a clean, modern portfolio built from scratch. Dark themed, artistic, with smooth animations and a focus on conversion.</p>
+                        <div class="project-tags">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                            <span>Vercel</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Wave Divider 2 -->
+        <div class="section-divider section-divider-wave2">
+            <svg viewBox="0 0 1440 100" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+                <path d="M0 100C240 50 480 80 720 60C960 40 1200 70 1440 100V100H0Z" fill="var(--bg-primary)"/>
+            </svg>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="deco-dots deco-dots-4"></div>
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"><i class="fas fa-user"></i> Who I Am</span>
+                <h2 class="section-title">About <em class="title-italic">Me</em></h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm <strong>Pavan Kumar Palla</strong>, an 18-year-old <strong>Computer Science Engineering</strong>
+                        student at <strong>Keshav Memorial Institute of Technology (KMIT), Hyderabad</strong>,
+                        currently in my <strong>2nd year</strong>.
+                    </p>
+                    <p>
+                        But I'm not just a coder — I'm a <strong>creative at heart</strong>. From designing websites
+                        to creating content, I bring an <em>artistic eye</em> to everything I build.
+                        I help local businesses in Hyderabad establish their digital presence with
+                        websites that are both visually stunning and technically sound.
+                    </p>
+                    <p>
+                        When I'm not coding, you'll find me designing, exploring new creative tools,
+                        or creating content. I believe great design isn't just about looking good —
+                        it's about telling a story, evoking emotion, and leaving a lasting impression.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="about-highlight">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Based in Hyderabad</span>
+                        </div>
+                        <div class="about-highlight">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>B.Tech CSE, KMIT</span>
+                        </div>
+                        <div class="about-highlight">
+                            <i class="fas fa-paint-brush"></i>
+                            <span>Artist & Creator</span>
+                        </div>
+                        <div class="about-highlight">
+                            <i class="fas fa-briefcase"></i>
+                            <span>Freelance Developer</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Divider -->
+        <div class="section-divider section-divider-slant">
+            <svg viewBox="0 0 1440 60" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+                <path d="M0 60L1440 0V60H0Z" fill="var(--bg-secondary)"/>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section alt-bg">
+        <div class="deco-cross deco-cross-4">✦</div>
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"><i class="fas fa-tools"></i> My Toolkit</span>
+                <h2 class="section-title">Skills & <em class="title-italic">Technologies</em></h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="devicon-html5-plain colored"></i>
+                    <h3>HTML5</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="devicon-css3-plain colored"></i>
+                    <h3>CSS3</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="devicon-javascript-plain colored"></i>
+                    <h3>JavaScript</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="devicon-react-original colored"></i>
+                    <h3>React</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="devicon-python-plain colored"></i>
+                    <h3>Python</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="devicon-java-plain colored"></i>
+                    <h3>Java</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="devicon-c-plain colored"></i>
+                    <h3>C</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="devicon-git-plain colored"></i>
+                    <h3>Git</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="devicon-figma-plain colored"></i>
+                    <h3>Figma</h3>
+                </div>
+            </div>
+
+            <!-- Creative Tools Row -->
+            <div class="section-header" style="margin-top: 3rem; margin-bottom: 2rem;">
+                <span class="section-tag"><i class="fas fa-magic"></i> Creative</span>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card creative-card">
+                    <i class="fas fa-video"></i>
+                    <h3>Video Editing</h3>
+                </div>
+                <div class="skill-card creative-card">
+                    <i class="fas fa-camera"></i>
+                    <h3>Photography</h3>
+                </div>
+                <div class="skill-card creative-card">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>UI Design</h3>
+                </div>
+                <div class="skill-card creative-card">
+                    <i class="fas fa-pen-nib"></i>
+                    <h3>Branding</h3>
+                </div>
+                <div class="skill-card creative-card">
+                    <i class="fas fa-share-alt"></i>
+                    <h3>Social Media</h3>
+                </div>
+            </div>
+        </div>
+
+        <!-- Divider -->
+        <div class="section-divider">
+            <svg viewBox="0 0 1440 100" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+                <path d="M0 100C360 40 720 80 1080 30C1260 5 1380 50 1440 100V100H0Z" fill="var(--bg-primary)"/>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="deco-ring deco-ring-5"></div>
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"><i class="fas fa-paper-plane"></i> Let's Connect</span>
+                <h2 class="section-title">Get In <em class="title-italic">Touch</em></h2>
+                <p class="section-subtitle">Have a project in mind? Let's talk about how I can help bring your ideas to life.</p>
+            </div>
+            <div class="contact-grid">
+                <a href="https://wa.me/917842298679?text=Hi%20Pavan%2C%20I%20need%20a%20website"
+                    class="contact-card whatsapp-card" target="_blank" rel="noopener noreferrer">
+                    <div class="contact-card-icon">
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                    <h3>WhatsApp</h3>
+                    <p>Quick response, usually within an hour</p>
+                    <span class="contact-action">Message Me <i class="fas fa-arrow-right"></i></span>
+                </a>
+                <a href="mailto:pavanknani12@gmail.com" class="contact-card email-card">
+                    <div class="contact-card-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Email</h3>
+                    <p>pavanknani12@gmail.com</p>
+                    <span class="contact-action">Send Email <i class="fas fa-arrow-right"></i></span>
+                </a>
+                <a href="https://github.com/PavanNani-2" target="_blank" rel="noopener noreferrer"
+                    class="contact-card github-card">
+                    <div class="contact-card-icon">
+                        <i class="fab fa-github"></i>
+                    </div>
+                    <h3>GitHub</h3>
+                    <p>Check out my code and projects</p>
+                    <span class="contact-action">View Profile <i class="fas fa-arrow-right"></i></span>
+                </a>
+                <a href="https://www.linkedin.com/in/pavan-kumar-palla-27596835a" target="_blank"
+                    rel="noopener noreferrer" class="contact-card linkedin-card">
+                    <div class="contact-card-icon">
+                        <i class="fab fa-linkedin-in"></i>
+                    </div>
+                    <h3>LinkedIn</h3>
+                    <p>Let's connect professionally</p>
+                    <span class="contact-action">Connect <i class="fas fa-arrow-right"></i></span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#hero" class="footer-logo">Pavan<span class="logo-dot">.</span></a>
+                    <p>Designer · Developer · Creator — Hyderabad</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#services">Services</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#about">About</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-social">
+                    <a href="https://github.com/PavanNani-2" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/pavan-kumar-palla-27596835a" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://wa.me/917842298679" target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Pavan Kumar Palla. Crafted with <i class="fas fa-heart"></i> & <i class="fas fa-palette"></i> in Hyderabad.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/917842298679?text=Hi%20Pavan%2C%20I%20need%20a%20website" class="whatsapp-float"
+        target="_blank" rel="noopener noreferrer" id="whatsapp-float">
+        <i class="fab fa-whatsapp"></i>
+        <span class="whatsapp-tooltip">Chat on WhatsApp</span>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
